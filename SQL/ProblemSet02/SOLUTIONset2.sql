@@ -1,5 +1,5 @@
 -- ProblemSet 1, November 14,2017
--- Submission by r.elizabeth.ranjit@accenture.com 
+-- Submission by r.srinivasan.kumaran@accenture.com 
 
 /*1.Write a valid SQL statement that calculates the total weight of all corn cobs that were picked from the garden: */
 
@@ -65,7 +65,7 @@ where gardenerid=gardenerfk and locationid=locationfk group by gardenerid);
 
 /*Record Count: 3 */
 
-/*10 Create a view that lists all the plant names picked from all locations except ’West’ in the month of August.*/ 
+/*10 Create a view that lists all the plant names picked from all locations except â€™Westâ€™ in the month of August.*/ 
 
 select name from plant where plantid in
 (select plantfk from picked 
