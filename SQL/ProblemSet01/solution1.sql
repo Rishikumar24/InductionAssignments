@@ -1,5 +1,5 @@
 -- ProblemSet 1, November 14,2017
--- Submission by r.elizabeth.ranjit@accenture.com 
+-- Submission by r.srinivasan.kumaran@accenture.com 
 
 /*1. List full details of all hotels. */
 
